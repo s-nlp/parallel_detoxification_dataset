@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Parallel Detoxification Dataset
+This repository contains parallel detoxification dataset for the task of elimination toxicity from the texts. The pipeline used for this dataset collection was presented in "Crowdsourcing of Parallel Corpora: the Case of Style Transfer for Detoxification" paper presented at [VLDB 2021 Crowd Science Workshop](https://crowdscience.ai/conference_events/vldb21).
 
-You can use the [editor on GitHub](https://github.com/skoltech-nlp/parallel_detoxification_dataset/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+***
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Data Collection Methodology
+The whole pipeline of the collection was divided into three tasks:
+- Task 1: detoxified paraphrase generation;
+- Task 2: content preservation check of obtained results from Task 1;
+- Task 3: toxicity check of obtained results from Task 1;
 
-### Markdown
+Here you can see the schematical illustration of the collection pipeline:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Alt text](https://github.com/skoltech-nlp/parallel_detoxification_dataset/blob/main/collection_pipeline_small.jpg)
 
-```markdown
-Syntax highlighted code block
+***
 
-# Header 1
-## Header 2
-### Header 3
+## Dataset Infomration
 
-- Bulleted
-- List
+Currenlty, the dataset consists of 2,779 pairs of `toxic sentence <-> detoxified sentence`. The unique `toxic sentences` covered are 1108. For each `toxic sentence` there no more than 4 `detoxified sentence`.
 
-1. Numbered
-2. List
+Example of samples:
+|toxic_comment   |civil_comment   |
+|---|---|
+|this is scaring the shit out of me.|This is really scaring me.|
+|this is a joke , are you all fucking retards?|This is a joke, are you all crazy?|
+|all you trump clowns are seriously messed up.|Trumps voters are seriously mislead.|
 
-**Bold** and _Italic_ and `Code` text
+***
 
-[Link](url) and ![Image](src)
+## Citation
+
+If you find this repository helpful, feel free to cite our publication:
+```
+to be updated
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+***
 
-### Jekyll Themes
+## Contacts
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skoltech-nlp/parallel_detoxification_dataset/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+For any questions please contact Daryna Dementieva via [email](mailto:daryna.dementieva@skoltech.ru) or [Telegram](https://t.me/dementyeva_ds).
