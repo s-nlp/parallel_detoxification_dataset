@@ -11,7 +11,7 @@ The whole pipeline of the collection was divided into three tasks:
 
 Here you can see the schematical illustration of the collection pipeline:
 
-![Alt text](https://github.com/skoltech-nlp/parallel_detoxification_dataset/blob/main/collection_pipeline_small.jpg)
+![image](schema.jpg)
 
 ***
 
