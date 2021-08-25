@@ -32,7 +32,22 @@ Example of samples:
 
 If you find this repository helpful, feel free to cite our publication:
 ```
-to be updated
+@inproceedings{dementieva2021crowdsourcing,
+    title = "Crowdsourcing of Parallel Corpora: the Case of Style Transfer for Detoxification",
+    author = {Dementieva, Daryna
+                 and Ustyantsev, Sergey
+                 and Dale, David 
+                 and Kozlova, Olga
+                 and Semenov, Nikita
+                 and Panchenko, Alexander
+                 and Logacheva, Varvara},
+    booktitle = "Proceedings of the 2nd Crowd Science Workshop: Trust, Ethics, and Excellence in Crowdsourced Data Management at Scale co-located with 47th International Conference on Very Large Data Bases (VLDB 2021 (https://vldb.org/2021/))",
+    year = "2021",
+    address = "Copenhagen, Denmark",
+    publisher = "CEUR Workshop Proceedings",
+    pages = "35--49",
+    url={http://ceur-ws.org/Vol-2932/paper2.pdf}
+}
 ```
 
 ***
