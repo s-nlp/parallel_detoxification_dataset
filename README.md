@@ -15,7 +15,7 @@ Here you can see the schematical illustration of the collection pipeline:
 
 ***
 
-## Dataset Infomration
+## Dataset Information
 
 Currenlty, the dataset consists of 2,779 pairs of `toxic sentence <-> detoxified sentence`. The unique `toxic sentences` covered are 1108. For each `toxic sentence` there no more than 4 `detoxified sentence`.
 
