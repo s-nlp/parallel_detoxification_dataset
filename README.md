@@ -1,6 +1,22 @@
-# Parallel Detoxification Dataset
-This repository contains parallel detoxification dataset for the task of elimination toxicity from the texts. The pipeline used for this dataset collection was presented in "Crowdsourcing of Parallel Corpora: the Case of Style Transfer for Detoxification" paper presented at [VLDB 2021 Crowd Science Workshop](https://crowdscience.ai/conference_events/vldb21).
+# Parallel Text Detoxification Dataset
+This repository contains parallel text detoxification dataset for the task of elimination toxicity from the texts. The pipeline used for this dataset collection was presented in "Crowdsourcing of Parallel Corpora: the Case of Style Transfer for Detoxification" paper presented at [VLDB 2021 Crowd Science Workshop](https://crowdscience.ai/conference_events/vldb21).
 
+***
+📰 **Updates**
+
+Check out **TextDetox** 🤗 https://huggingface.co/collections/textdetox/ -- continuation of ParaDetox project!
+
+**[2025] !!!NOW OPEN!!! TextDetox CLEF2025 shared task: for even more -- 15 languages!** [website](https://pan.webis.de/clef25/pan25-web/text-detoxification.html) 🤗[Starter Kit](https://huggingface.co/collections/textdetox/)
+
+**[2025] COLNG2025**: Daryna Dementieva, Nikolay Babakov, Amit Ronen, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, Xintong Wang, Seid Muhie Yimam, Daniil Alekhseevich Moskovskiy, Elisei Stakovskii, Eran Kaufman, Ashraf Elnagar, Animesh Mukherjee, and Alexander Panchenko. 2025. ***Multilingual and Explainable Text Detoxification with Parallel Corpora***. In Proceedings of the 31st International Conference on Computational Linguistics, pages 7998–8025, Abu Dhabi, UAE. Association for Computational Linguistics. [pdf](https://aclanthology.org/2025.coling-main.535/)
+
+**[2024]** We have also created versions of ParaDetox in more languages. You can checkout a [RuParaDetox](https://huggingface.co/datasets/s-nlp/ru_paradetox) dataset as well as a [Multilingual TextDetox](https://huggingface.co/textdetox) project that includes 9 languages.
+
+Corresponding papers:
+* [MultiParaDetox: Extending Text Detoxification with Parallel Data to New Languages](https://aclanthology.org/2024.naacl-short.12/) (NAACL 2024)
+* [Overview of the multilingual text detoxification task at pan 2024](https://ceur-ws.org/Vol-3740/paper-223.pdf) (CLEF Shared Task 2024)
+
+**[2022] ParaDetox** for English, the full version with experiments, was presented at ACL2022! [repo](https://github.com/s-nlp/paradetox/tree/main) [paper](https://aclanthology.org/2022.acl-long.469/)
 ***
 
 ## Data Collection Methodology
@@ -8,6 +24,8 @@ The whole pipeline of the collection was divided into three tasks:
 - Task 1: detoxified paraphrase generation;
 - Task 2: content preservation check of obtained results from Task 1;
 - Task 3: toxicity check of obtained results from Task 1;
+
+The crowdsourcing was conducted with [Toloka.ai](https://toloka.ai) crowdsourcing platform.
 
 Here you can see the schematical illustration of the collection pipeline:
 
